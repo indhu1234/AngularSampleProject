@@ -821,3 +821,22 @@ fatal: no upstream configured for branch 'DomoProductApp'
 > git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
 > git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
 > git add -A -- /home/indium/.config/Code/logs/20201207T112048/exthost1/output_logging_20201207T112051/3-Git.log /home/indium/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000018.log /home/indium/.config/Microsoft/Microsoft Teams/QuotaManager-journal /home/indium/.config/google-chrome/Default/QuotaManager /home/indium/.config/google-chrome/Default/QuotaManager-journal /home/indium/.config/google-chrome/Default/TransportSecurity /home/indium/Documents/Projects/angularsampleproject /home/indium/Documents/Projects/shark_ninja_v2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git add -A -- /home/indium/.config/Code/User/globalStorage/state.vscdb /home/indium/.config/Code/logs/20201207T112048/exthost1/output_logging_20201207T112051/3-Git.log /home/indium/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/000077.log /home/indium/.config/Microsoft/Microsoft Teams/QuotaManager /home/indium/.config/Microsoft/Microsoft Teams/QuotaManager-journal /home/indium/.config/Microsoft/Microsoft Teams/TransportSecurity /home/indium/.config/Microsoft/Microsoft Teams/skylib/debug-0-s2002021542.blog /home/indium/.config/Microsoft/Microsoft Teams/skylib/slimcore-aria-cache.data-shm /home/indium/.config/Microsoft/Microsoft Teams/skylib/slimcore-aria-cache.data-wal /home/indium/.config/google-chrome/Default/Cookies /home/indium/.config/google-chrome/GrShaderCache/GPUCache/data_1 /home/indium/.config/google-chrome/ShaderCache/GPUCache/data_1 /home/indium/Documents/Projects/angularsampleproject /home/indium/Documents/Projects/shark_ninja_v2 /home/indium/.config/Microsoft/Microsoft Teams/Cache/c7371d6a2939f38c_0
