@@ -18,3 +18,5 @@
 [2020-12-07 17:48:12.322] [main] [info] update#setState idle
 [2020-12-07 18:53:48.763] [main] [info] update#setState checking for updates
 [2020-12-07 18:53:49.783] [main] [info] update#setState idle
+[2020-12-07 19:30:02.790] [main] [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?)). Details: Keys: workbench.sidebar.size, workbench.panel.size Length: 6
+[2020-12-07 19:30:38.004] [main] [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?),(?,?)). Details: Keys: workbench.sidebar.size, workbench.panel.size, scm/input:Git:/home/indium Length: 159
