@@ -6,5 +6,6 @@
         }
     ],
     "window.zoomLevel": 1,
-    "files.autoSave": "off"
+    "files.autoSave": "off",
+    "git.enableSmartCommit": true
 }

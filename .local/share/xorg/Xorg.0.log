@@ -484,3 +484,4 @@ Release Date: 2017-12-20
 [ 26043.657] (EE) client bug: timer event5 tap: offset negative (-26ms)
 [ 26043.657] (EE) client bug: timer event5 tap: offset negative (-8ms)
 [ 26043.657] (EE) client bug: timer event5 tap: offset negative (-8ms)
+[ 28378.186] (EE) event5  - SynPS/2 Synaptics TouchPad: libinput bug: invalid tap event TAP_EVENT_PALM in state TAP_STATE_TAPPED

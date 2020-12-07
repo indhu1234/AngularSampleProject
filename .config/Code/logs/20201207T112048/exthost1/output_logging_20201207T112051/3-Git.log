@@ -914,3 +914,119 @@ To push the current branch and set the remote as upstream, use
     git push --set-upstream origin DomoProductApp
 > git push -u origin DomoProductApp
 > git add -A -- /home/indium/.cache/google-chrome/Default/Cache/index-dir/the-real-index /home/indium/.config/Code/Cache/index-dir/the-real-index /home/indium/.config/Code/logs/20201207T112048/exthost1/output_logging_20201207T112051/3-Git.log /home/indium/.config/google-chrome/Default/Cookies /home/indium/.config/google-chrome/Default/QuotaManager-journal /home/indium/.local/share/zeitgeist/activity.sqlite-shm /home/indium/.local/share/zeitgeist/activity.sqlite-wal /home/indium/Documents/Projects/angularsampleproject /home/indium/Documents/Projects/shark_ninja_v2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git check-ignore -v -z --stdin
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git add -A -- /home/indium/.cache/google-chrome/Default/Cache/0f88c08ea611aef3_0 /home/indium/.cache/google-chrome/Default/Cache/267db2a4f294eb61_0 /home/indium/.cache/google-chrome/Default/Cache/2a11e3d7843e2e43_0 /home/indium/.cache/google-chrome/Default/Cache/6902bf7cf44feee6_0 /home/indium/.cache/google-chrome/Default/Cache/6f54e8415813a765_0 /home/indium/.cache/google-chrome/Default/Cache/9034d0c4b726cc73_0 /home/indium/.cache/google-chrome/Default/Cache/a37489931bac9fba_0 /home/indium/.cache/google-chrome/Default/Cache/e96c01e93287ba06_0 /home/indium/.cache/google-chrome/Default/Code Cache/js/index-dir/the-real-index /home/indium/.config/Code/GPUCache/data_1 /home/indium/.config/Code/User/globalStorage/state.vscdb /home/indium/.config/Code/User/settings.json /home/indium/.config/Code/logs/20201207T112048/exthost1/output_logging_20201207T112051/3-Git.log /home/indium/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000018.log /home/indium/.config/Microsoft/Microsoft Teams/QuotaManager /home/indium/.config/Microsoft/Microsoft Teams/logs.txt /home/indium/.config/Microsoft/Microsoft Teams/skylib/debug-0-s2002021542.blog /home/indium/.config/google-chrome/Default/Local Storage/leveldb/000081.log /home/indium/.config/google-chrome/Default/Preferences /home/indium/.config/google-chrome/Default/QuotaManager /home/indium/.config/google-chrome/Default/Sessions/Session_13251793912264801 /home/indium/.config/google-chrome/Default/TransportSecurity /home/indium/.config/google-chrome/GrShaderCache/GPUCache/data_0 /home/indium/.config/google-chrome/GrShaderCache/GPUCache/data_1 /home/indium/.config/google-chrome/GrShaderCache/GPUCache/data_3 /home/indium/.config/google-chrome/GrShaderCache/GPUCache/index /home/indium/.config/google-chrome/Local State /home/indium/Documents/Projects/angularsampleproject /home/indium/Documents/Projects/shark_ninja_v2 /home/indium/.cache/google-chrome/Default/Code Cache/js/33f56251a48f8db8_0 /home/indium/.cache/google-chrome/Default/Code Cache/js/f34ca4f258f7f6b2_0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git check-ignore -v -z --stdin
+> git add -A -- /home/indium/.config/Code/logs/20201207T112048/exthost1/output_logging_20201207T112051/3-Git.log /home/indium/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/000077.log /home/indium/.config/Microsoft/Microsoft Teams/TransportSecurity /home/indium/.config/google-chrome/Default/Cookies /home/indium/.config/google-chrome/Default/GPUCache/data_1 /home/indium/.config/google-chrome/Default/Network Persistent State /home/indium/.config/google-chrome/Default/QuotaManager-journal /home/indium/Documents/Projects/angularsampleproject /home/indium/Documents/Projects/shark_ninja_v2 /home/indium/.cache/google-chrome/Default/Cache/c7f0de96d4437933_0
+fatal: pathspec '/home/indium/.cache/google-chrome/Default/Cache/c7f0de96d4437933_0' did not match any files
+> git add -A -- /home/indium/.config/Code/logs/20201207T112048/exthost1/output_logging_20201207T112051/3-Git.log /home/indium/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/000077.log /home/indium/.config/Microsoft/Microsoft Teams/TransportSecurity /home/indium/.config/google-chrome/Default/Cookies /home/indium/.config/google-chrome/Default/GPUCache/data_1 /home/indium/.config/google-chrome/Default/Network Persistent State /home/indium/.config/google-chrome/Default/QuotaManager-journal /home/indium/Documents/Projects/angularsampleproject /home/indium/Documents/Projects/shark_ninja_v2 /home/indium/.cache/google-chrome/Default/Cache/c7f0de96d4437933_0
+fatal: pathspec '/home/indium/.cache/google-chrome/Default/Cache/c7f0de96d4437933_0' did not match any files
+> git pull --tags
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> DomoProductApp
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git add -A -- /home/indium/.config/Code/logs/20201207T112048/exthost1/output_logging_20201207T112051/3-Git.log /home/indium/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/000077.log /home/indium/.config/Microsoft/Microsoft Teams/TransportSecurity /home/indium/.config/google-chrome/Default/Cookies /home/indium/.config/google-chrome/Default/GPUCache/data_1 /home/indium/.config/google-chrome/Default/Network Persistent State /home/indium/.config/google-chrome/Default/QuotaManager-journal /home/indium/Documents/Projects/angularsampleproject /home/indium/Documents/Projects/shark_ninja_v2 /home/indium/.cache/google-chrome/Default/Cache/c7f0de96d4437933_0
+fatal: pathspec '/home/indium/.cache/google-chrome/Default/Cache/c7f0de96d4437933_0' did not match any files
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git pull --tags
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git add -A -- .
