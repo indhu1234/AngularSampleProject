@@ -696,3 +696,28 @@ fatal: no upstream configured for branch 'DomoProductApp'
 > git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
 > git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
 > git add -A -- /home/indium/.config/Code/User/globalStorage/state.vscdb /home/indium/.config/Code/logs/20201207T112048/exthost1/output_logging_20201207T112051/3-Git.log /home/indium/.config/google-chrome/Default/Local Storage/leveldb/000081.log /home/indium/Documents/Projects/angularsampleproject /home/indium/Documents/Projects/shark_ninja_v2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git add -A -- /home/indium/.config/Code/logs/20201207T112048/exthost1/output_logging_20201207T112051/3-Git.log /home/indium/.config/Microsoft/Microsoft Teams/Application Cache/Cache/data_1 /home/indium/.config/Microsoft/Microsoft Teams/GPUCache/data_1 /home/indium/.config/Microsoft/Microsoft Teams/skylib/debug-0-s2002021542.blog /home/indium/.config/google-chrome/Default/Cookies /home/indium/.config/google-chrome/Default/Network Persistent State /home/indium/Documents/Projects/angularsampleproject /home/indium/Documents/Projects/shark_ninja_v2
