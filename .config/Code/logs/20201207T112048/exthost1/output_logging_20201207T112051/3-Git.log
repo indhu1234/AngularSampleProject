@@ -1171,3 +1171,28 @@ fatal: no upstream configured for branch 'DomoProductApp'
 > git remote --verbose
 > git config --get commit.template
 > git add -A -- .
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/indium/Documents/Projects/angularsampleproject
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .
