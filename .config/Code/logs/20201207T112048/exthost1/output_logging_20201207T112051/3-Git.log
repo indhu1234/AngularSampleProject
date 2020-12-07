@@ -1030,3 +1030,119 @@ fatal: no upstream configured for branch 'DomoProductApp'
 > git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
 > git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
 > git add -A -- .
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git check-ignore -v -z --stdin
+> git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 6fb6794628a8b79b554877192e588675e33dcd15.
+error: Your local changes to the following files would be overwritten by merge:
+	.cache/google-chrome/Default/Code Cache/js/index-dir/the-real-index
+	.config/Code/GPUCache/data_1
+	.config/Code/User/globalStorage/state.vscdb
+	.config/Code/logs/20201207T112048/exthost1/output_logging_20201207T112051/3-Git.log
+	.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000018.log
+	.config/Microsoft/Microsoft Teams/QuotaManager
+	.config/Microsoft/Microsoft Teams/logs.txt
+	.config/Microsoft/Microsoft Teams/skylib/debug-0-s2002021542.blog
+	.config/google-chrome/Default/Local Storage/leveldb/000081.log
+	.config/google-chrome/Default/Preferences
+	.config/google-chrome/Default/QuotaManager
+	.config/google-chrome/Default/Sessions/Session_13251793912264801
+	.config/google-chrome/Default/TransportSecurity
+	.config/google-chrome/GrShaderCache/GPUCache/data_1
+	.config/google-chrome/Local State
+Please commit your changes or stash them before you merge.
+error: Your local changes to the following files would be overwritten by merge:
+	.cache/google-chrome/Default/Cache/0efdfbd653fe6aa5_0
+	.cache/google-chrome/Default/Cache/42210094619af502_0
+	.cache/google-chrome/Default/Cache/71fad0c210c02871_0
+	.cache/google-chrome/Default/Cache/737abf27e8cec77f_0
+	.cache/google-chrome/Default/Cache/9f46f1cb357df909_0
+	.cache/google-chrome/Default/Cache/dfb8a004e5859ae5_0
+	.cache/google-chrome/Default/Cache/e635f3978d43b3d7_0
+	.cache/google-chrome/Default/Cache/feea72c666d603a2_0
+	.cache/google-chrome/Default/Cache/index-dir/the-real-index
+	.cache/google-chrome/Default/Code Cache/js/59e6926dc050f716_0
+	.cache/google-chrome/Default/Code Cache/js/e6e6be2bbde4d86b_0
+	.config/Code/Cache/index-dir/the-real-index
+	.config/Code/User/workspaceStorage/53b18181922f356f84657da78db95771/state.vscdb
+	.config/Code/rapid_render.json
+	.config/Microsoft/Microsoft Teams/Application Cache/Cache/data_1
+	.config/Microsoft/Microsoft Teams/Cache/index-dir/the-real-index
+	.config/Microsoft/Microsoft Teams/Cookies
+	.config/Microsoft/Microsoft Teams/GPUCache/data_1
+	.config/Microsoft/Microsoft Teams/Local Storage/leveldb/000077.log
+	.config/Microsoft/Microsoft Teams/TransportSecurity
+	.config/Microsoft/Microsoft Teams/skylib/slimcore-aria-cache.data-shm
+	.config/Microsoft/Microsoft Teams/skylib/slimcore-aria-cache.data-wal
+	.config/google-chrome/Default/Cookies
+	.config/google-chrome/Default/Favicons
+	.config/google-chrome/Default/Favicons-journal
+	.config/google-chrome/Default/GPUCache/data_1
+	.config/google-chrome/Default/History
+	.config/google-chrome/Default/History-journal
+	.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000011.log
+	.config/google-chrome/Default/Network Action Predictor
+	.config/google-chrome/Default/Network Persistent State
+	.config/google-chrome/Default/Session Storage/000022.log
+	.config/google-chrome/Default/Shortcuts
+	.config/google-chrome/Default/Visited Links
+	.config/google-chrome/ShaderCache/GPUCache/data_1
+	.local/share/gnome-shell/application_state
+	.local/share/xorg/Xorg.0.log
+	.local/share/zeitgeist/activity.sqlite-shm
+	.local/share/zeitgeist/activity.sqlite-wal
+Please commit your changes or stash them before you merge.
+error: The following untracked working tree files would be overwritten by merge:
+	.cache/google-chrome/Default/Cache/037700ace11991d0_0
+	.cache/google-chrome/Default/Cache/03f9680ddca40d7e_0
+	.cache/google-chrome/Default/Cache/2e854c3595bb9908_0
+	.cache/google-chrome/Default/Cache/c57b393620314e3e_0
+Please move or remove them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 6fb6794628a8b79b554877192e588675e33dcd15
+output, run
+$ git reset --hard
+to recover.
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+> git cat-file -s d425c6f56b578db1e8d7f8fa2d6c90693ba5d4fb
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/products-app/src/app/app-routing.module.ts
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/indium/Documents/Projects/shark_ninja_v2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse DomoProductApp
+> git rev-parse --symbolic-full-name DomoProductApp@{u}
+fatal: no upstream configured for branch 'DomoProductApp'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git add -A -- .
