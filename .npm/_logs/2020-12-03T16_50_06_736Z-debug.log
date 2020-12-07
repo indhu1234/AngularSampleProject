@@ -1,0 +1,71 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/indium/.nvm/versions/node/v14.15.1/bin/node',
+1 verbose cli   '/home/indium/.nvm/versions/node/v14.15.1/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'keytar'
+1 verbose cli ]
+2 info using npm@6.14.9
+3 info using node@v14.15.1
+4 verbose npm-session 85e0d119fb4f7dc0
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/keytar 275787ms
+8 http fetch GET 200 https://registry.npmjs.org/keytar/-/keytar-7.2.0.tgz 1431ms
+9 silly pacote tag manifest for keytar@latest fetched in 277231ms
+10 timing stage:loadCurrentTree Completed in 279596ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 37ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 1542ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule keytar@7.2.0 checking installable status
+18 silly removeObsoleteDep removing keytar@4.13.0 from the tree as its been replaced by a newer version or is no longer required
+19 silly removeObsoleteDep removing prebuild-install@5.3.0 from the tree as its been replaced by a newer version or is no longer required
+20 silly removeObsoleteDep removing detect-libc@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+21 silly removeObsoleteDep removing expand-template@2.0.3 from the tree as its been replaced by a newer version or is no longer required
+22 silly removeObsoleteDep removing github-from-package@0.0.0 from the tree as its been replaced by a newer version or is no longer required
+23 silly removeObsoleteDep removing napi-build-utils@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+24 silly removeObsoleteDep removing node-abi@2.19.1 from the tree as its been replaced by a newer version or is no longer required
+25 silly removeObsoleteDep removing semver@5.7.1 from the tree as its been replaced by a newer version or is no longer required
+26 silly removeObsoleteDep removing noop-logger@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+27 silly removeObsoleteDep removing npmlog@4.1.2 from the tree as its been replaced by a newer version or is no longer required
+28 silly removeObsoleteDep removing are-we-there-yet@1.1.5 from the tree as its been replaced by a newer version or is no longer required
+29 silly removeObsoleteDep removing delegates@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+30 silly removeObsoleteDep removing console-control-strings@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+31 silly removeObsoleteDep removing gauge@2.7.4 from the tree as its been replaced by a newer version or is no longer required
+32 silly removeObsoleteDep removing has-unicode@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+33 silly removeObsoleteDep removing string-width@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+34 silly removeObsoleteDep removing is-fullwidth-code-point@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+35 silly removeObsoleteDep removing wide-align@1.1.3 from the tree as its been replaced by a newer version or is no longer required
+36 silly removeObsoleteDep removing string-width@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+37 silly removeObsoleteDep removing strip-ansi@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+38 silly removeObsoleteDep removing ansi-regex@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+39 silly removeObsoleteDep removing pump@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+40 silly removeObsoleteDep removing rc@1.2.8 from the tree as its been replaced by a newer version or is no longer required
+41 silly removeObsoleteDep removing deep-extend@0.6.0 from the tree as its been replaced by a newer version or is no longer required
+42 silly removeObsoleteDep removing strip-json-comments@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+43 silly removeObsoleteDep removing simple-get@2.8.1 from the tree as its been replaced by a newer version or is no longer required
+44 silly removeObsoleteDep removing decompress-response@3.3.0 from the tree as its been replaced by a newer version or is no longer required
+45 silly removeObsoleteDep removing mimic-response@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+46 silly removeObsoleteDep removing simple-concat@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+47 silly removeObsoleteDep removing tar-fs@1.16.3 from the tree as its been replaced by a newer version or is no longer required
+48 silly removeObsoleteDep removing pump@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+49 silly removeObsoleteDep removing tar-stream@1.6.2 from the tree as its been replaced by a newer version or is no longer required
+50 silly removeObsoleteDep removing bl@1.2.2 from the tree as its been replaced by a newer version or is no longer required
+51 silly removeObsoleteDep removing buffer-alloc@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+52 silly removeObsoleteDep removing buffer-alloc-unsafe@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+53 silly removeObsoleteDep removing buffer-fill@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+54 silly removeObsoleteDep removing fs-constants@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+55 silly removeObsoleteDep removing to-buffer@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+56 silly removeObsoleteDep removing which-pm-runs@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+57 http fetch GET 200 https://registry.npmjs.org/node-addon-api 7732ms
+58 http fetch GET 200 https://registry.npmjs.org/prebuild-install 25045ms
+59 http fetch GET 200 https://registry.npmjs.org/prebuild-install/-/prebuild-install-6.0.0.tgz 506ms
+60 silly pacote range manifest for prebuild-install@^6.0.0 fetched in 25556ms
+61 silly resolveWithNewModule prebuild-install@6.0.0 checking installable status
+62 timing npm Completed in 789853ms
+63 error cb() never called!
+64 error This is an error with npm itself. Please report this error at:
+65 error <https://npm.community>

@@ -1,0 +1,12 @@
+2020/12/07-11:28:26.249 e48 Reusing MANIFEST /home/indium/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/07-11:28:26.249 e48 Recovering log #14
+2020/12/07-11:28:26.273 e48 Reusing old log /home/indium/.config/Microsoft/Microsoft Teams/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000014.log 
+2020/12/07-11:38:03.834 ff3 Level-0 table #19: started
+2020/12/07-11:38:03.861 ff3 Level-0 table #19: 1546768 bytes OK
+2020/12/07-11:38:03.865 ff3 Delete type=0 #14
+2020/12/07-12:28:00.542 ff3 Compacting 1@1 + 1@2 files
+2020/12/07-12:28:00.597 ff3 Generated table #20@1: 8471 keys, 1892520 bytes
+2020/12/07-12:28:00.597 ff3 Compacted 1@1 + 1@2 files => 1892520 bytes
+2020/12/07-12:28:00.599 ff3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/07-12:28:00.600 ff3 Delete type=2 #19
+2020/12/07-12:28:00.600 ff3 Delete type=2 #16

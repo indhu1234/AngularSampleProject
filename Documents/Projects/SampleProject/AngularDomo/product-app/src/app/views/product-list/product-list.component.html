@@ -1,0 +1,43 @@
+<h1>List of Products</h1>
+ <div class="products">
+    <nz-table #table [nzData]="prodList" nzSize="middle" nzBordered nzOuterBordered>
+        <thead>
+            <tr>  
+                
+                <td>Id</td>
+                <td>Product</td>
+                <td>Units Available</td>
+                <td>Unit Cost</td>
+                <td>Total Cost</td>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of table.data">
+                <td>{{item.product_id}}</td>
+                <td>{{item.product}}</td>
+                <td>{{item.units_available}}</td>
+                <td>{{item.unit_cost}}</td>
+                <td>{{item.units_available * item.unit_cost}}</td>
+            </tr>
+            <tr>
+                <button nz-button (click)="sendData()" nzSize="large" nzType='primary'>Submit</button>
+            </tr>
+        </tbody>
+    </nz-table>
+</div> 
+
+<!-- 
+<button mat-raised-button (click)="addColumn()"> Add column </button>
+<button mat-raised-button (click)="removeColumn()"> Remove column </button>
+<button mat-raised-button (click)="shuffle()"> Shuffle </button>
+
+<mat-table [dataSource]="dataSource" matSort class="table table-hover table-fixed">
+    <ng-container matColumnDef="{{column.id}}" *ngFor="let column of columns">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> {{column.id}} </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element[column.id]}} </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table> -->

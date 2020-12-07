@@ -1,0 +1,180 @@
+{
+   "checksum": "3531ff4d30d4427d5a1d860afe2834ff",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13251469467333467",
+            "guid": "b348f5a6-3b5f-4581-848e-2e867b677797",
+            "id": "5",
+            "name": "Domo for Developers | Domo",
+            "type": "url",
+            "url": "https://developer.domo.com/"
+         }, {
+            "date_added": "13251470088794699",
+            "guid": "afc04e43-fe8b-4614-ac89-548f369c6349",
+            "id": "6",
+            "name": "Zimbra: Inbox",
+            "type": "url",
+            "url": "https://zmail.hybridzimbra.com/zimbra/mail#1"
+         }, {
+            "date_added": "13251470273657734",
+            "guid": "63fb55a2-d123-4c41-868f-3f89424a35ae",
+            "id": "7",
+            "name": "greytHr",
+            "type": "url",
+            "url": "https://indiumsoftwareindialtd.greythr.com/home.do"
+         }, {
+            "date_added": "13251471320367400",
+            "guid": "948de5a0-b9ba-4a6e-96a2-d4d7f0ec9ee6",
+            "id": "8",
+            "name": "timesheet.xlsx - Google Sheets",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1PE0mwmvjjhXifSwe2ReE-16mZShT_CPx/edit#gid=1014888802"
+         }, {
+            "date_added": "13251471442500000",
+            "guid": "a2509425-60b9-47cb-8ba1-39e5db9b2110",
+            "id": "9",
+            "name": "DomoConnectorCreation",
+            "type": "url",
+            "url": "https://developer.domo.com/docs/writeback-connectors/build"
+         }, {
+            "date_added": "13251471554628707",
+            "guid": "9d1e1342-6223-4967-a463-82e68455cd8b",
+            "id": "10",
+            "name": "DatasetApi-PUT Methods",
+            "type": "url",
+            "url": "https://developer.domo.com/docs/dataset-api-reference/dataset"
+         }, {
+            "date_added": "13251471673012844",
+            "guid": "e2e6cee0-e776-43bd-a9cd-6d620b6aef9d",
+            "id": "11",
+            "name": "DomoCRUD-kickstart",
+            "type": "url",
+            "url": "https://www.linkedin.com/pulse/kickstart-your-digital-projects-custom-app-25-min-tutorial-wilson?trk=related_artice_Kickstart%20your%20Digital%20Projects%20with%20a%20Custom%20App%20(a%2025%20min%20tutorial)_article-card_title"
+         }, {
+            "date_added": "13251471772433793",
+            "guid": "efbd7fe3-b678-4282-914e-60c8ac5d7c5d",
+            "id": "12",
+            "name": "Angular 6 CRUD App Example",
+            "type": "url",
+            "url": "https://www.javaguides.net/2019/02/angular-6-crud-app-example.html"
+         }, {
+            "date_added": "13251471878636726",
+            "guid": "74385cb5-6e19-44a7-ae01-c21ba80a43ca",
+            "id": "13",
+            "name": "AngularRestAPI",
+            "type": "url",
+            "url": "https://www.positronx.io/angular-7-httpclient-http-service/"
+         }, {
+            "date_added": "13251471968752881",
+            "guid": "425affa5-6710-4fb2-aab0-a88826d094a0",
+            "id": "14",
+            "name": "RESTAPI Guide",
+            "type": "url",
+            "url": "https://www.edureka.co/blog/what-is-rest-api/"
+         }, {
+            "date_added": "13251472203644142",
+            "guid": "122e45ad-5a13-465d-a423-2800aabfe2a6",
+            "id": "15",
+            "name": "mohamedfaizul / sharkninja_table — Bitbucket",
+            "type": "url",
+            "url": "https://bitbucket.org/mohamedfaizul/sharkninja_table/src/master/"
+         }, {
+            "date_added": "13251472264178132",
+            "guid": "2db3db85-b69a-49a5-988b-ecfb7666b7e0",
+            "id": "16",
+            "name": "DomoAuthenticate",
+            "type": "url",
+            "url": "https://developer.domo.com/explorer#!/auth"
+         }, {
+            "date_added": "13251472378366621",
+            "guid": "155a9e32-21cb-4835-8c2e-892186d44e92",
+            "id": "17",
+            "name": "DataAPI",
+            "type": "url",
+            "url": "https://developer.domo.com/docs/dev-studio-references/data-api"
+         }, {
+            "date_added": "13251472426160024",
+            "guid": "e16090a4-4347-4214-88d9-a1b0410d51f3",
+            "id": "18",
+            "name": "AppDB API",
+            "type": "url",
+            "url": "https://developer.domo.com/docs/dev-studio-references/appdb"
+         }, {
+            "date_added": "13251472529959694",
+            "guid": "7be831fe-359f-4eed-b4a7-34d0d5f99c19",
+            "id": "19",
+            "name": "DomoQuickGuide",
+            "type": "url",
+            "url": "https://dojo.domo.com/t5/Appstore-Publisher-Documentation/DevKit-How-to-Use-the-Domo-App-DevKit/ta-p/7458"
+         }, {
+            "date_added": "13251472748961971",
+            "guid": "c25f3c84-2e77-4c0f-90fa-5b775b65c522",
+            "id": "20",
+            "name": "Developerguide",
+            "type": "url",
+            "url": "https://dojo.domo.com/t5/Appstore-Publisher-Documentation/tkb-p/Appstore/label-name/devkit?labels=appstore%20supported%20connectors"
+         }, {
+            "date_added": "13251545891658410",
+            "guid": "9c4e3297-7c58-406e-8a47-e3897ef7962d",
+            "id": "22",
+            "name": "DevKit: How to Use the Domo App DevKit - Dojo",
+            "type": "url",
+            "url": "https://dojo.domo.com/t5/Appstore-Publisher-Documentation/DevKit-How-to-Use-the-Domo-App-DevKit/ta-p/7458#"
+         }, {
+            "date_added": "13251580537481165",
+            "guid": "18c68140-5047-4d5d-9722-dcea3680a25c",
+            "id": "24",
+            "name": "Table | Angular Material",
+            "type": "url",
+            "url": "https://material.angular.io/cdk/table/api"
+         }, {
+            "date_added": "13251590708093192",
+            "guid": "e02ae48d-bd76-4ca7-9b45-424fdda37e74",
+            "id": "25",
+            "name": "New Tab",
+            "type": "url",
+            "url": "chrome://newtab/"
+         }, {
+            "date_added": "13251652855041692",
+            "guid": "98328ab8-ce56-44b9-b2d7-0b07490b7204",
+            "id": "27",
+            "name": "alasql - npm",
+            "type": "url",
+            "url": "https://www.npmjs.com/package/alasql"
+         }, {
+            "date_added": "13251663535112149",
+            "guid": "b4f6be33-c28d-44f1-837c-695ddf5df3dc",
+            "id": "29",
+            "name": "dynamiccolumn",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/38810318/dynamically-loading-columns-and-data-in-to-table-in-angular-2"
+         } ],
+         "date_added": "13251468911112568",
+         "date_modified": "13251663535112149",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13251468911112570",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13251468911112571",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

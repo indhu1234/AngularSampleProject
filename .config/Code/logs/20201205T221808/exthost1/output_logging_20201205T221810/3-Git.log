@@ -1,0 +1,16 @@
+Looking for git in: git
+Using git 2.29.2 from git
+> git rev-parse --git-dir
+Open repository: /home/indium/Documents/Projects/shark-ss-approval
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse test-approval
+> git rev-parse --symbolic-full-name test-approval@{u}
+fatal: no upstream configured for branch 'test-approval'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/views/approvals/approvals.component.ts
+> git ls-files --stage -- /home/indium/Documents/Projects/shark-ss-approval/src/app/views/approvals/approvals.component.ts
+> git cat-file -s d236259e058fa12c5e64e1618f15c284f4b311c6
+> git check-ignore -v -z --stdin

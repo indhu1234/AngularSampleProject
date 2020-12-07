@@ -1,0 +1,42 @@
+2020/12/07-11:28:23.035 dc4 Reusing MANIFEST /home/indium/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/MANIFEST-000001
+2020/12/07-11:28:23.036 dc4 Recovering log #60
+2020/12/07-11:28:23.036 dc4 Reusing old log /home/indium/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/000060.log 
+2020/12/07-11:29:23.041 ee2 Level-0 table #64: started
+2020/12/07-11:29:23.043 ee2 Level-0 table #64: 56335 bytes OK
+2020/12/07-11:29:23.046 ee2 Delete type=0 #60
+2020/12/07-12:10:38.988 ee2 Level-0 table #66: started
+2020/12/07-12:10:38.992 ee2 Level-0 table #66: 61226 bytes OK
+2020/12/07-12:10:38.995 ee2 Delete type=0 #63
+2020/12/07-12:10:38.995 ee2 Compacting 4@0 + 1@1 files
+2020/12/07-12:10:39.008 ee2 Generated table #67@0: 158 keys, 534652 bytes
+2020/12/07-12:10:39.008 ee2 Compacted 4@0 + 1@1 files => 534652 bytes
+2020/12/07-12:10:39.011 ee2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/12/07-12:10:39.011 ee2 Delete type=2 #57
+2020/12/07-12:10:39.011 ee2 Delete type=2 #59
+2020/12/07-12:10:39.011 ee2 Delete type=2 #61
+2020/12/07-12:10:39.011 ee2 Delete type=2 #66
+2020/12/07-12:10:39.011 ee2 Delete type=2 #64
+2020/12/07-12:52:30.476 ee2 Level-0 table #69: started
+2020/12/07-12:52:30.480 ee2 Level-0 table #69: 51175 bytes OK
+2020/12/07-12:52:30.483 ee2 Delete type=0 #65
+2020/12/07-13:31:30.375 ee2 Level-0 table #71: started
+2020/12/07-13:31:30.379 ee2 Level-0 table #71: 46652 bytes OK
+2020/12/07-13:31:30.382 ee2 Delete type=0 #68
+2020/12/07-14:58:28.315 ee2 Level-0 table #73: started
+2020/12/07-14:58:28.318 ee2 Level-0 table #73: 23210 bytes OK
+2020/12/07-14:58:28.321 ee2 Delete type=0 #70
+2020/12/07-16:57:02.786 ee2 Level-0 table #75: started
+2020/12/07-16:57:02.791 ee2 Level-0 table #75: 55613 bytes OK
+2020/12/07-16:57:02.793 ee2 Delete type=0 #72
+2020/12/07-16:57:02.793 ee2 Compacting 4@0 + 1@1 files
+2020/12/07-16:57:02.806 ee2 Generated table #76@0: 175 keys, 534350 bytes
+2020/12/07-16:57:02.806 ee2 Compacted 4@0 + 1@1 files => 534350 bytes
+2020/12/07-16:57:02.809 ee2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/12/07-16:57:02.809 ee2 Delete type=2 #75
+2020/12/07-16:57:02.809 ee2 Delete type=2 #73
+2020/12/07-16:57:02.809 ee2 Delete type=2 #71
+2020/12/07-16:57:02.809 ee2 Delete type=2 #69
+2020/12/07-16:57:02.809 ee2 Delete type=2 #67
+2020/12/07-17:36:02.863 ee2 Level-0 table #78: started
+2020/12/07-17:36:02.866 ee2 Level-0 table #78: 58874 bytes OK
+2020/12/07-17:36:02.868 ee2 Delete type=0 #74

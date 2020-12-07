@@ -1,0 +1,38 @@
+{
+  "name": "products-app",
+  "version": "1.0.0",
+  "fullpage":false,
+  "size": {
+    "width": 5,
+    "height": 3
+  },
+  "collections": [{
+    "name": "productslist",
+    "schema":{
+      "columns":[
+        {"name":"product_id", "type":"LONG"},
+        {"name":"product", "type":"STRING"},
+        {"name":"units_available", "type":"LONG"},
+        {"name":"unit_cost", "type":"DECIMAL"},
+        {"name":"total_cost", "type":"DECIMAL"}
+      ]
+    },
+    "syncEnabled": true
+  }],
+
+  "mapping": [
+    {
+      "dataSetId": "4ce31460-c06c-492e-a33c-807ffc32381a",
+      "alias": "ecommerce",
+      "fields": []
+    },
+    {
+      "dataSetId": "b104b662-a0e5-4cf5-967a-14a6fe0cea45",
+      "alias": "peoples",
+      "fields": []
+    }
+  ],
+  "fileName": "manifest.json",
+  "proxyId": "76315351-7ef9-4a90-b2b5-ae7e3804d644",
+  "id": "64766a0f-ff38-45b3-980d-25e00fde4331"
+}

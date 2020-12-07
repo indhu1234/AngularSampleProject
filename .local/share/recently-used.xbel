@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/indium/Downloads/teams_1.3.00.30857_amd64.deb" added="2020-12-02T14:06:35Z" modified="2020-12-02T14:06:35Z" visited="2020-12-02T14:06:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-12-02T14:06:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_indium0/google-chrome-stable_current_amd64.deb" added="2020-12-03T11:30:31Z" modified="2020-12-03T11:30:31Z" visited="2020-12-03T11:30:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-12-03T11:30:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2" added="2020-12-03T17:13:34Z" modified="2020-12-03T17:13:34Z" visited="2020-12-03T17:13:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2020-12-03T17:13:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/SampleProject/AngularDomo" added="2020-12-03T17:31:17Z" modified="2020-12-06T18:17:00Z" visited="2020-12-03T17:31:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2020-12-06T18:17:00Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/SampleProject/AngularDomo/product-app/domo/thumbnail.png" added="2020-12-04T05:14:41Z" modified="2020-12-06T18:07:37Z" visited="2020-12-04T05:14:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome-stable" exec="&apos;google-chrome-stable %u&apos;" modified="2020-12-04T05:14:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja/domo/docs/plans/plan.txt" added="2020-12-04T05:53:42Z" modified="2020-12-04T05:53:42Z" visited="2020-12-04T05:53:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T05:53:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja/domo/docs/manifest.int.json" added="2020-12-04T05:54:02Z" modified="2020-12-04T05:57:07Z" visited="2020-12-04T05:54:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T05:57:07Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja/domo/docs/schema/promotion/promotion.json" added="2020-12-04T05:54:25Z" modified="2020-12-04T05:57:20Z" visited="2020-12-04T05:54:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T05:57:20Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja/domo/manifest.json" added="2020-12-04T05:56:03Z" modified="2020-12-04T08:30:53Z" visited="2020-12-04T05:56:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T08:30:53Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja/src/app/views/promotions/queries.js" added="2020-12-04T06:04:44Z" modified="2020-12-05T12:02:40Z" visited="2020-12-04T06:04:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-05T12:02:40Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja/angular.json" added="2020-12-04T06:10:52Z" modified="2020-12-04T07:23:28Z" visited="2020-12-04T06:10:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T07:23:28Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja/package.json" added="2020-12-04T06:32:36Z" modified="2020-12-04T07:25:05Z" visited="2020-12-04T06:32:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T07:25:05Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja/package-lock.json" added="2020-12-04T07:44:28Z" modified="2020-12-04T07:44:28Z" visited="2020-12-04T07:44:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T07:44:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja/publish-app.sh" added="2020-12-04T08:27:57Z" modified="2020-12-04T08:27:57Z" visited="2020-12-04T08:27:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T08:27:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja/README.md" added="2020-12-04T08:28:48Z" modified="2020-12-04T08:28:48Z" visited="2020-12-04T08:28:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T08:28:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja/tsconfig.app.json" added="2020-12-04T08:29:19Z" modified="2020-12-04T08:29:19Z" visited="2020-12-04T08:29:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T08:29:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/SampleProject/AngularDomo/product-app" added="2020-12-04T08:51:08Z" modified="2020-12-06T18:08:15Z" visited="2020-12-04T08:51:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2020-12-06T18:08:15Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/publish.sh" added="2020-12-04T08:52:56Z" modified="2020-12-06T16:55:51Z" visited="2020-12-04T08:52:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T16:55:51Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/tsconfig.app.json" added="2020-12-04T08:53:31Z" modified="2020-12-06T16:57:26Z" visited="2020-12-04T08:53:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T16:57:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/tslint.json" added="2020-12-04T08:53:40Z" modified="2020-12-04T08:53:40Z" visited="2020-12-04T08:53:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T08:53:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Pictures/Screenshot%20from%202020-12-04%2015-07-46.png" added="2020-12-04T09:37:47Z" modified="2020-12-04T09:37:47Z" visited="2020-12-04T09:37:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="gsd-media-keys" exec="&apos;gsd-media-keys %u&apos;" modified="2020-12-04T09:37:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/domo_datasetId.txt" added="2020-12-04T10:29:42Z" modified="2020-12-07T12:05:25Z" visited="2020-12-04T10:29:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-07T12:05:04Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/sharkninja_table/src/app/views/customer-info/customer-info.component.html" added="2020-12-04T11:49:44Z" modified="2020-12-04T11:49:44Z" visited="2020-12-04T11:49:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T11:49:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/sharkninja_table/src/app/views/customer-info/customer-info.component.scss" added="2020-12-04T11:57:59Z" modified="2020-12-04T11:57:59Z" visited="2020-12-04T11:58:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-scss"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T11:57:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/sharkninja_table/src/app/app.component.html" added="2020-12-04T12:18:58Z" modified="2020-12-04T12:18:58Z" visited="2020-12-04T12:18:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T12:18:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/sharkninja_table/domo/manifest.json" added="2020-12-04T13:09:43Z" modified="2020-12-06T19:58:20Z" visited="2020-12-04T13:09:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T19:58:20Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/domo/manifest.json" added="2020-12-04T21:39:51Z" modified="2020-12-04T21:39:51Z" visited="2020-12-04T21:39:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-04T21:39:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/domo/plans.txt" added="2020-12-04T21:40:03Z" modified="2020-12-06T16:58:47Z" visited="2020-12-04T21:40:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T16:58:47Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark-ss-approval/domo/manifest.json" added="2020-12-04T21:40:26Z" modified="2020-12-06T20:57:38Z" visited="2020-12-04T21:40:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T20:57:38Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Downloads/customer-info.txt" added="2020-12-04T22:27:10Z" modified="2020-12-05T13:30:35Z" visited="2020-12-04T22:27:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-05T13:30:35Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Downloads/agershun-alasql-v0.6.2-0-g574956b.zip" added="2020-12-05T14:45:14Z" modified="2020-12-05T14:45:14Z" visited="2020-12-05T14:45:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2020-12-05T14:45:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="trash:///ProductApp/manifest.json" added="2020-12-05T18:31:18Z" modified="2020-12-06T15:46:02Z" visited="2020-12-05T18:31:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T15:46:02Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="trash:///ProductApp/index.html" added="2020-12-06T15:41:41Z" modified="2020-12-06T15:41:41Z" visited="2020-12-06T15:41:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T15:41:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/SampleProject/AngularDomo/product-app/dist/ProductApp/manifest.json" added="2020-12-06T15:52:27Z" modified="2020-12-06T18:07:37Z" visited="2020-12-06T15:52:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T15:52:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="trash:///Productapp/plans.txt" added="2020-12-06T16:47:42Z" modified="2020-12-06T16:47:42Z" visited="2020-12-06T16:47:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T16:47:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/package.json" added="2020-12-06T16:49:03Z" modified="2020-12-06T16:49:03Z" visited="2020-12-06T16:49:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T16:49:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/README.md" added="2020-12-06T16:57:20Z" modified="2020-12-06T16:57:20Z" visited="2020-12-06T16:57:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/markdown"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T16:57:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/package-lock.json" added="2020-12-06T16:57:38Z" modified="2020-12-06T16:57:38Z" visited="2020-12-06T16:57:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T16:57:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/browserslist" added="2020-12-06T16:58:58Z" modified="2020-12-06T16:58:58Z" visited="2020-12-06T16:58:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T16:58:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/angular.json" added="2020-12-06T16:59:07Z" modified="2020-12-06T16:59:07Z" visited="2020-12-06T16:59:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T16:59:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/dist/shark-ninja-v2/index.html" added="2020-12-06T17:05:24Z" modified="2020-12-06T17:05:24Z" visited="2020-12-06T17:05:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T17:05:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark_ninja_v2/src/index.html" added="2020-12-06T17:15:19Z" modified="2020-12-06T17:15:19Z" visited="2020-12-06T17:15:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T17:15:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark-ss-approval/tslint.json" added="2020-12-06T17:43:41Z" modified="2020-12-06T17:43:41Z" visited="2020-12-06T17:43:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T17:43:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark-ss-approval/tsconfig.spec.json" added="2020-12-06T17:45:44Z" modified="2020-12-06T17:45:44Z" visited="2020-12-06T17:45:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T17:45:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark-ss-approval/tsconfig.json" added="2020-12-06T17:47:01Z" modified="2020-12-06T17:47:01Z" visited="2020-12-06T17:47:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T17:47:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark-ss-approval/tsconfig.app.json" added="2020-12-06T17:49:39Z" modified="2020-12-06T17:49:39Z" visited="2020-12-06T17:49:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T17:49:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark-ss-approval/publish.sh" added="2020-12-06T17:50:08Z" modified="2020-12-06T22:00:17Z" visited="2020-12-06T17:50:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T22:00:17Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark-ss-approval/angular.json" added="2020-12-06T17:52:42Z" modified="2020-12-06T18:24:40Z" visited="2020-12-06T17:52:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T18:24:40Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark-ss-approval/package.json" added="2020-12-06T17:52:53Z" modified="2020-12-06T18:31:41Z" visited="2020-12-06T17:52:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T18:31:41Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/shark-ss-approval/karma.conf.js" added="2020-12-06T17:58:26Z" modified="2020-12-06T17:58:26Z" visited="2020-12-06T17:58:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T17:58:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/dist/products-app/manifest.json" added="2020-12-06T20:57:06Z" modified="2020-12-06T20:57:06Z" visited="2020-12-06T20:57:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T20:57:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/indium/Documents/Projects/SampleProject/AngularDomo/products-app/publish.sh" added="2020-12-06T22:01:15Z" modified="2020-12-06T22:01:58Z" visited="2020-12-06T22:01:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2020-12-06T22:01:58Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

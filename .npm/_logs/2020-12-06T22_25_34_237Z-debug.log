@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/indium/.nvm/versions/node/v14.15.1/bin/node',
+1 verbose cli   '/home/indium/.nvm/versions/node/v14.15.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--ignore-scripts',
+1 verbose cli   '@types/debug@ts4.0',
+1 verbose cli   '@types/follow-redirects@ts4.0',
+1 verbose cli   '@types/requires-port@ts4.0',
+1 verbose cli   '--save-dev',
+1 verbose cli   '--user-agent=typesInstaller/4.0.3'
+1 verbose cli ]
+2 info using npm@6.14.9
+3 info using node@v14.15.1
+4 verbose npm-session 1ba3d28ede9f211f
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for @types/debug@ts4.0 request to https://registry.npmjs.org/@types%2fdebug failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+8 silly fetchPackageMetaData error for @types/follow-redirects@ts4.0 request to https://registry.npmjs.org/@types%2ffollow-redirects failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+9 silly fetchPackageMetaData error for @types/requires-port@ts4.0 request to https://registry.npmjs.org/@types%2frequires-port failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+10 timing stage:rollbackFailedOptional Completed in 1ms
+11 timing stage:runTopLevelLifecycles Completed in 178ms
+12 verbose type system
+13 verbose stack FetchError: request to https://registry.npmjs.org/@types%2fdebug failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+13 verbose stack     at ClientRequest.<anonymous> (/home/indium/.nvm/versions/node/v14.15.1/lib/node_modules/npm/node_modules/node-fetch-npm/src/index.js:68:14)
+13 verbose stack     at ClientRequest.emit (events.js:315:20)
+13 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:469:9)
+13 verbose stack     at TLSSocket.emit (events.js:315:20)
+13 verbose stack     at emitErrorNT (internal/streams/destroy.js:106:8)
+13 verbose stack     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+13 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:80:21)
+14 verbose cwd /home/indium/.cache/typescript/4.0
+15 verbose Linux 4.15.0-126-generic
+16 verbose argv "/home/indium/.nvm/versions/node/v14.15.1/bin/node" "/home/indium/.nvm/versions/node/v14.15.1/bin/npm" "install" "--ignore-scripts" "@types/debug@ts4.0" "@types/follow-redirects@ts4.0" "@types/requires-port@ts4.0" "--save-dev" "--user-agent=typesInstaller/4.0.3"
+17 verbose node v14.15.1
+18 verbose npm  v6.14.9
+19 error code ENOTFOUND
+20 error errno ENOTFOUND
+21 error network request to https://registry.npmjs.org/@types%2fdebug failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+22 error network This is a problem related to network connectivity.
+22 error network In most cases you are behind a proxy or have bad network settings.
+22 error network
+22 error network If you are behind a proxy, please make sure that the
+22 error network 'proxy' config is set properly.  See: 'npm help config'
+23 verbose exit [ 1, true ]

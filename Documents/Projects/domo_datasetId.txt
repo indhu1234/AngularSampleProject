@@ -1,0 +1,339 @@
+App Name : SamClients
+Desc : Testing
+
+Client ID : 2ef44d4d-88bc-45dc-a0f0-98d6f0d27904
+Secret ID : d902894c5b12f3d3b203dc3c4f4d24984383584c756159fa436524071b2837aa
+Scopes : data, workflow, audit, buzz, user, account, dashboard
+
+Get dataset
+===============
+Promotional Id :
+---------------------
+Request:
+========
+GET https://api.domo.com/v1/datasets
+
+Accept: application/json
+
+Authorization: bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiQWRtaW4iLCJzY29wZSI6WyJhdWRpdCIsImRhc2hib2FyZCIsImRhdGEiLCJ1c2VyIl0sImRvbWFpbiI6ImluZGl1bXNvZnQuZG9tby5jb20iLCJleHAiOjE2MDcwODE3NjYsImVudiI6InByb2Q4IiwidXNlcklkIjoyNTQ3MjM0MzAsImp0aSI6IkkxUkdTZlpjemF4Ylh5U0dvRWJvcGY2UXp1UT0iLCJjbGllbnRfaWQiOiIyZWY0NGQ0ZC04OGJjLTQ1ZGMtYTBmMC05OGQ2ZjBkMjc5MDQiLCJjdXN0b21lciI6Im1tbW0tMDAxNi0xOTMzIn0.WJU3SP-No1WYv8syGPcHr69oTYe6w-zG6HByzyNkFQA2WxA5rnjSWoOuoYM5bk48Art92zdiOa2Cln_jfxrVoPHZhy07GGzfMMGfmlSNAwnK4tWsStVLXSfUzxtMcaRtIHzdx97EeAE1W6Ke55sJ1jUeUaus8j1dft4lon7EBncLq4oy9cq8l6_bc4i6kkYrJOoUrrMGUYCBHO24jiz7nNKoj6vkcGqkgmGD796rypZgX7aF7tBIuFfkASSAuSdof20TaAkY9_hswErATNTlJSKsGuHIahCp5FDTAUt2Sz2fPIu5zXGlqMbs7otGCUyOsk0IxRcNP79-D4_hKnJJFw
+
+Authorization
+============
+Request
+=============
+GET https://api.domo.com/oauth/token?grant_type=client_credentials&scope=audit%20data%20dashboard%20user
+
+Accept: application/json
+
+Authorization: Basic MmVmNDRkNGQtODhiYy00NWRjLWEwZjAtOThkNmYwZDI3OTA0OmQ5MDI4OTRjNWIxMmYzZDNiMjAzZGMzYzRmNGQyNDk4NDM4MzU4NGM3NTYxNTlmYTQzNjUyNDA3MWIyODM3YWE=
+
+Response
+----------------
+{
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiQWRtaW4iLCJzY29wZSI6WyJhdWRpdCIsImRhc2hib2FyZCIsImRhdGEiLCJ1c2VyIl0sImRvbWFpbiI6ImluZGl1bXNvZnQuZG9tby5jb20iLCJleHAiOjE2MDcwODI1NDQsImVudiI6InByb2Q4IiwidXNlcklkIjoyNTQ3MjM0MzAsImp0aSI6Imt0ZkNnWFlFdGN2djAydlE3aEFQYTdvUmdzVT0iLCJjbGllbnRfaWQiOiIyZWY0NGQ0ZC04OGJjLTQ1ZGMtYTBmMC05OGQ2ZjBkMjc5MDQiLCJjdXN0b21lciI6Im1tbW0tMDAxNi0xOTMzIn0.uauNyA33nZHdZXNRMS_ONS5OU_R78kMjxhIO7N-aBjcsciHmqkHQ_9DyTx0I4r8tNwKc9Jjnr0YUHLDPpddghC28OCnQiXHC37Ol3FjUAmFFaqKLGbV-IDbvoBrKp8E4Sv2Iiw9IU6e1o_AGHKwjcFaGSpp46rWmScMDbRG5tAa8wH2HfgARrNRYJqQAEtNYvm0v-LIG-Fe2bRx28e5Sn1Xg5fQtRrhvO1vxcTYyn-mdMMWZPlHjPCcn_AEOTp6LgMntEFXV7XU5e6qelicQwvlSc6g8QBMvfj3BICMVnk8k26ZKKvZLeLHy7iumX2A7F2F56zR3LuuJdT5qIYr7-w",
+  "token_type": "bearer",
+  "expires_in": 3598,
+  "scope": "audit dashboard data user",
+  "customer": "mmmm-0016-1933",
+  "env": "prod8",
+  "userId": 254723430,
+  "role": "Admin",
+  "domain": "indiumsoft.domo.com",
+  "jti": "ktfCgXYEtcvv02vQ7hAPa7oRgsU="
+}
+
+
+Response
+------------
+HTTP 200
+[
+  {
+    "id": "b104b662-a0e5-4cf5-967a-14a6fe0cea45",
+    "name": "Peoples",
+    "rows": 50,
+    "columns": 26,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-12-01T09:46:35Z",
+    "createdAt": "2020-12-01T09:46:23Z",
+    "updatedAt": "2020-12-01T09:46:36Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "4ce31460-c06c-492e-a33c-807ffc32381a",
+    "name": "ECommerce",
+    "rows": 60,
+    "columns": 15,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-22T13:30:35Z",
+    "createdAt": "2020-11-22T13:30:25Z",
+    "updatedAt": "2020-11-22T13:30:36Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "7a338865-fc76-4ce6-826d-5cf7eead814e",
+    "name": "MasterData",
+    "rows": 6,
+    "columns": 11,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-20T18:06:20Z",
+    "createdAt": "2020-11-18T11:29:21Z",
+    "updatedAt": "2020-11-20T18:06:22Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "9c1b26f2-0b34-419e-bfce-250a25f8c677",
+    "name": "salesoutput2",
+    "rows": 13671,
+    "columns": 2,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-20T11:37:03Z",
+    "createdAt": "2020-11-20T10:28:08Z",
+    "updatedAt": "2020-11-20T11:37:09Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "fd15aabb-06a9-480b-b749-75387819c2d9",
+    "name": "salesoutput",
+    "rows": 13671,
+    "columns": 3,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-20T11:37:03Z",
+    "createdAt": "2020-11-20T10:28:08Z",
+    "updatedAt": "2020-11-20T11:37:09Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "959f882b-0f71-4ca3-b165-74599d489a00",
+    "name": "Sales",
+    "rows": 13671,
+    "columns": 37,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-20T11:36:40Z",
+    "createdAt": "2020-11-19T19:00:00Z",
+    "updatedAt": "2020-11-20T11:36:41Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "fb7bde02-3635-4173-aca2-0ffde6ac58bf",
+    "name": "Salesoutput2",
+    "rows": 9208,
+    "columns": 40,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-20T11:06:09Z",
+    "createdAt": "2020-11-20T11:05:39Z",
+    "updatedAt": "2020-11-20T11:06:16Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "2a11d25a-f077-4329-a8ae-02e7f59408f3",
+    "name": "Salesopportunity",
+    "rows": 10,
+    "columns": 12,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-20T09:34:57Z",
+    "createdAt": "2020-11-20T09:34:46Z",
+    "updatedAt": "2020-11-20T09:34:58Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "5835772c-b0ba-421a-b667-a0e5a31626c7",
+    "name": "MasterData.csv",
+    "rows": 7,
+    "columns": 8,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-19T16:11:15Z",
+    "createdAt": "2020-11-19T16:11:00Z",
+    "updatedAt": "2020-11-19T16:11:18Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "3650efbc-3077-4802-a08a-21d21b888368",
+    "name": "Leads",
+    "description": "Samples",
+    "rows": 2500,
+    "columns": 20,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-18T07:38:38Z",
+    "createdAt": "2020-11-17T13:05:28Z",
+    "updatedAt": "2020-11-18T07:38:39Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "5876168e-b6e1-4b41-baac-2e08a13e10d7",
+    "name": "Sample Data",
+    "rows": 0,
+    "columns": 37,
+    "owner": {
+      "id": 27,
+      "name": "DomoSupport"
+    },
+    "dataCurrentAt": "2020-11-03T10:17:50Z",
+    "createdAt": "2020-11-03T10:17:06Z",
+    "updatedAt": "2020-11-03T10:17:53Z",
+    "pdpEnabled": false
+  }
+]
+
+
+
+OAuth Token:
+=============
+Request
+-----------
+     curl -v -u 2ef44d4d-88bc-45dc-a0f0-98d6f0d27904:d902894c5b12f3d3b203dc3c4f4d24984383584c756159fa436524071b2837aa "https://indiumsoft.domo.com/oauth/token?grant_type=client_credentials&scope=data,workflow,audit,buzz,user,account,dashboard"
+Response
+------------
+?
+
+Request Code for Client_credentials
+--------------------------------------------------
+Reference : https://developer.domo.com/explorer#!/auth
+=============================================
+===> It's getting from providing clientId and SecretId in this Website
+
+
+GET https://api.domo.com/oauth/token?grant_type=client_credentials&scope=audit%20data%20dashboard%20user
+Accept: application/json
+Authorization: Basic MmVmNDRkNGQtODhiYy00NWRjLWEwZjAtOThkNmYwZDI3OTA0OmQ5MDI4OTRjNWIxMmYzZDNiMjAzZGMzYzRmNGQyNDk4NDM4MzU4NGM3NTYxNTlmYTQzNjUyNDA3MWIyODM3YWE=
+ 
+Response Code:
+============
+{
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiQWRtaW4iLCJzY29wZSI6WyJhdWRpdCIsImRhc2hib2FyZCIsImRhdGEiLCJ1c2VyIl0sImRvbWFpbiI6ImluZGl1bXNvZnQuZG9tby5jb20iLCJleHAiOjE2MDYxMTIzMDksImVudiI6InByb2Q4IiwidXNlcklkIjoyNTQ3MjM0MzAsImp0aSI6InZMZHByV3F4OXY2emJta1ExUzU5N1V6Ukg3ND0iLCJjbGllbnRfaWQiOiIyZWY0NGQ0ZC04OGJjLTQ1ZGMtYTBmMC05OGQ2ZjBkMjc5MDQiLCJjdXN0b21lciI6Im1tbW0tMDAxNi0xOTMzIn0.JM_gaZTTooC2A9xXLwRAJFSB7Gh6PVTiWQnyeTkaVbRLV1S-9H4-IhllcBr7qgk9TpQoh5qxyEBXel-h9oycaf_PO6-_vKTDGXXBtd3iZzt1KP6LIee0jpyIEB-dzvKBiOSI9JvFobSoXLzXfs8mNsjQ5pm6VDtjxrrIXQr3ocf3nk4YPeUi0IYVwKiKjCpNavT9LAipFN9KlU29UCx3pTJPUvwPDML0Uc5PxcEkvuzsrGEloDjTAFzjFYyrK277a28d0Z1SZt7PdSUqb3MzVXP1pSrdqkuIN3ZBNUhUtfXZ_4Ntz7xpbOdEituSBV9nVjs66DR-nBf8E9KaelusJg",
+  "token_type": "bearer",
+  "expires_in": 3598,
+  "scope": "audit dashboard data user",
+  "customer": "mmmm-0016-1933",
+  "env": "prod8",
+  "userId": 254723430,
+  "role": "Admin",
+  "domain": "indiumsoft.domo.com",
+  "jti": "vLdprWqx9v6zbmkQ1S597UzRH74="
+}
+
+List of Datasets
+==============
+HTTP 200
+[
+  {
+    "id": "3650efbc-3077-4802-a08a-21d21b888368",
+    "name": "Leads",
+    "description": "Samples",
+    "rows": 2500,
+    "columns": 20,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-18T07:38:38Z",
+    "createdAt": "2020-11-17T13:05:28Z",
+    "updatedAt": "2020-11-18T07:38:39Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "7a338865-fc76-4ce6-826d-5cf7eead814e",
+    "name": "MasterData",
+    "rows": 1,
+    "columns": 8,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-18T11:33:44Z",
+    "createdAt": "2020-11-18T11:29:21Z",
+    "updatedAt": "2020-11-18T11:33:46Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "5876168e-b6e1-4b41-baac-2e08a13e10d7",
+    "name": "Sample Data",
+    "rows": 0,
+    "columns": 37,
+    "owner": {
+      "id": 27,
+      "name": "DomoSupport"
+    },
+    "dataCurrentAt": "2020-11-03T10:17:50Z",
+    "createdAt": "2020-11-03T10:17:06Z",
+    "updatedAt": "2020-11-03T10:17:53Z",
+    "pdpEnabled": false
+  },
+  {
+    "id": "7665a9c1-c93a-42a6-8e7d-5e8ed1aefac9",
+    "name": "TestData",
+    "rows": 395,
+    "columns": 20,
+    "owner": {
+      "id": 254723430,
+      "name": "indhumathi k"
+    },
+    "dataCurrentAt": "2020-11-18T09:26:17Z",
+    "createdAt": "2020-11-18T09:26:10Z",
+    "updatedAt": "2020-11-18T09:26:18Z",
+    "pdpEnabled": false
+  }
+]
+
+
+Example:
+=======
+domo.get('/data/v1/dataAlias?useBeastMode=true&fields=beastModeAlias,reps&sum=beastModeAlias&groupby=reps')
+    .then(function(data){
+        console.log("data", data);
+});
+-----------------------------------
+
+If you want to obtain the same results but your beast mode already contains a sum function in its formula, then you can exclude the sum operator as a query parameter. Note that if your beast mode does contain an aggregation in its formula and you are including multiple fields in your query, you must specify a groupby operator so that the query knows how to group the results of the beast mode's aggregation function.
+------------------------------------------------
+domo.get('/data/v1/dataAlias?useBeastMode=true&fields=beastModeAlias,reps&groupby=reps')
+    .then(function(data){
+        console.log("data", data);
+});
+Known limitation: You cannot use the filter operator on a beast mode that contains an aggregate function (the equivalent of a having clause which is not supported in Domo today).
+
+SQL API
+===========
+You can now use SQL to query your Domo DataSet as an alternative to using the Data API. You can use all of the same SQL you're used to with the exception of JOINs. For example:
+
+domo.post('/sql/v1/dataAlias', 'SELECT * FROM dataAlias limit 100', {contentType: 'text/plain'})
+    .then(function(data){
+        console.log({data});
+});
+
+
+Git Hub Token ID
+============================
+   vscode://vscode.github-authentication/did-authenticate?windowid=1&code=5de36c977dadb80deb0c&state=cace0e9f-1d73-4c18-985e-193324df10db
+
+
+

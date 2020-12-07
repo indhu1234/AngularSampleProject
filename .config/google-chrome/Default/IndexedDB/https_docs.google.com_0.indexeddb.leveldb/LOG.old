@@ -1,0 +1,15 @@
+2020/12/05-03:00:47.541 28f6 Reusing MANIFEST /home/indium/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/05-03:00:47.541 28f6 Recovering log #4
+2020/12/05-03:00:47.541 28f6 Reusing old log /home/indium/.config/google-chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000004.log 
+2020/12/05-03:00:49.608 2964 Level-0 table #8: started
+2020/12/05-03:00:49.610 2964 Level-0 table #8: 190 bytes OK
+2020/12/05-03:00:49.614 2964 Delete type=0 #4
+2020/12/05-03:00:49.614 2964 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/05-03:00:49.614 2964 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 676 : 1
+2020/12/05-03:00:49.614 2964 Compacting 1@1 + 1@2 files
+2020/12/05-03:00:49.617 2964 Generated table #9@1: 205 keys, 3129 bytes
+2020/12/05-03:00:49.617 2964 Compacted 1@1 + 1@2 files => 3129 bytes
+2020/12/05-03:00:49.620 2964 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/05-03:00:49.620 2964 Delete type=2 #8
+2020/12/05-03:00:49.621 2964 Delete type=2 #5
+2020/12/05-03:00:49.621 2964 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 676 : 1 .. (end); will stop at (end)

@@ -1,0 +1,161 @@
+[2020-12-05 13:01:38.669] [exthost] [info] extension host started
+[2020-12-05 13:01:38.696] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2020-12-05 13:01:38.696] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-12-05 13:01:38.704] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-12-05 13:01:38.704] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-12-05 13:01:38.705] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-12-05 13:01:38.705] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2020-12-05 13:01:38.720] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-12-05 13:01:38.720] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-12-05 13:01:38.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-12-05 13:01:38.739] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-12-05 13:01:38.741] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-12-05 13:01:38.741] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-12-05 13:01:38.838] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-12-05 13:01:38.838] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-12-05 13:01:38.862] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2020-12-05 13:01:38.862] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2020-12-05 13:01:38.946] [exthost] [info] eager extensions activated
+[2020-12-05 13:01:38.967] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2020-12-05 13:01:38.967] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-12-05 13:01:52.312] [exthost] [info] extension host started
+[2020-12-05 13:01:52.439] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2020-12-05 13:01:52.439] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-12-05 13:01:52.465] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-12-05 13:01:52.465] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2020-12-05 13:01:52.471] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:typescript"}
+[2020-12-05 13:01:52.471] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2020-12-05 13:01:52.507] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-12-05 13:01:52.507] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-12-05 13:01:52.513] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-12-05 13:01:52.514] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2020-12-05 13:01:52.582] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-12-05 13:01:52.582] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-12-05 13:01:52.606] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-12-05 13:01:52.607] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-12-05 13:01:52.609] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-12-05 13:01:52.609] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-12-05 13:01:52.611] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2020-12-05 13:01:52.611] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2020-12-05 13:01:53.816] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-12-05 13:01:53.817] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2020-12-05 13:01:53.872] [exthost] [info] eager extensions activated
+[2020-12-05 13:01:53.957] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2020-12-05 13:01:53.957] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2020-12-05 13:01:54.463] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2020-12-05 13:01:54.463] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-12-05 13:01:57.967] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5000
+[2020-12-05 13:02:09.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-12-05 13:02:09.249] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2020-12-05 13:02:09.252] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-12-05 13:02:09.252] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2020-12-05 13:47:41.228] [exthost] [info] ExtensionService#_doActivateExtension vscode.image-preview {"startup":false,"extensionId":{"value":"vscode.image-preview","_lower":"vscode.image-preview"},"activationEvent":"onCustomEditor:imagePreview.previewEditor"}
+[2020-12-05 13:47:41.229] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/image-preview/dist/extension
+[2020-12-05 13:47:43.395] [exthost] [info] ExtensionService#_doActivateExtension eg2.vscode-npm-script {"startup":false,"extensionId":{"value":"eg2.vscode-npm-script","_lower":"eg2.vscode-npm-script"},"activationEvent":"onLanguage:json"}
+[2020-12-05 13:47:43.395] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/indium/.vscode/extensions/eg2.vscode-npm-script-0.3.13/dist/extension
+[2020-12-05 14:06:23.595] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:scss"}
+[2020-12-05 14:06:23.596] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain
+[2020-12-05 14:07:08.725] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-12-05 14:07:08.725] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2020-12-05 14:24:03.311] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-12-05 14:24:03.316] [exthost] [error] Error: DisposableStore is missing...
+	at W._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:944)
+	at W.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:680)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-12-05 15:35:58.488] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-12-05 15:35:58.488] [exthost] [error] Error: DisposableStore is missing...
+	at W._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:944)
+	at W.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:680)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-12-05 15:46:27.244] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-12-05 15:46:27.244] [exthost] [error] Error: DisposableStore is missing...
+	at W._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:944)
+	at W.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:680)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-12-05 19:45:27.259] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-12-05 19:45:27.260] [exthost] [error] Error: DisposableStore is missing...
+	at W._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:944)
+	at W.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:680)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-12-05 20:27:01.464] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-12-05 20:27:01.466] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:513:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:511:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async W.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:749:898)
+[2020-12-05 20:27:01.856] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-12-05 20:27:01.856] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:513:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:511:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async W.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:749:898)
+[2020-12-05 20:27:04.223] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-12-05 20:27:04.223] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:513:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:511:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async W.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:749:898)
+[2020-12-05 20:27:06.690] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-12-05 20:27:06.690] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:513:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:511:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async W.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:749:898)
+[2020-12-05 20:27:11.463] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-12-05 20:27:11.463] [exthost] [error] Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:513:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:511:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async W.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:749:898)
+[2020-12-05 20:42:44.038] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-12-05 20:42:44.038] [exthost] [error] Error: DisposableStore is missing...
+	at W._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:944)
+	at W.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:680)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-12-05 20:44:47.455] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-12-05 20:44:47.455] [exthost] [error] Error: DisposableStore is missing...
+	at W._convertCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:944)
+	at W.resolveCompletionItem (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:750:680)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[2020-12-05 22:14:46.722] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2020-12-05 22:14:46.723] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-server-ready/dist/extension

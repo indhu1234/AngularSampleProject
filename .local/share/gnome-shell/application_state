@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.FileRoller.desktop" open-window-count="0" score="1" last-seen="1607179523"/>
+    <application id="gnome-control-center.desktop" open-window-count="0" score="54" last-seen="1607015215"/>
+    <application id="org.gnome.Todo.desktop" open-window-count="0" score="2" last-seen="1606936968"/>
+    <application id="yelp.desktop" open-window-count="0" score="5" last-seen="1607275672"/>
+    <application id="firefox.desktop" open-window-count="0" score="1082" last-seen="1607198525"/>
+    <application id="gedit.desktop" open-window-count="0" score="0" last-seen="0"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="774" last-seen="1607342741"/>
+    <application id="update-manager.desktop" open-window-count="0" score="2" last-seen="1606847185"/>
+    <application id="code.desktop" open-window-count="3" score="12829" last-seen="1607348200"/>
+    <application id="google-chrome.desktop" open-window-count="1" score="10660" last-seen="1607348402"/>
+    <application id="teams.desktop" open-window-count="1" score="1611" last-seen="1607348045"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="719" last-seen="1607342707"/>
+    <application id="rhythmbox.desktop" open-window-count="0" score="0" last-seen="1607269334"/>
+    <application id="gnome-terminal.desktop" open-window-count="0" score="0" last-seen="0"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="3" score="449" last-seen="1607340434"/>
+    <application id="apport-gtk.desktop" open-window-count="0" score="0" last-seen="1606847152"/>
+    <application id="gnome-initial-setup.desktop" open-window-count="0" score="21" last-seen="1606847110"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="39" last-seen="1607007382"/>
+    <application id="libreoffice-writer.desktop" open-window-count="0" score="7" last-seen="1607005894"/>
+    <application id="thunderbird.desktop" open-window-count="0" score="7" last-seen="1607086376"/>
+  </context>
+</application-state>

@@ -1,0 +1,10 @@
+{
+    "git-autoconfig.configList": [
+        {
+            "user.email": "git",
+            "user.name": "indhu1234"
+        }
+    ],
+    "window.zoomLevel": 1,
+    "files.autoSave": "off"
+}

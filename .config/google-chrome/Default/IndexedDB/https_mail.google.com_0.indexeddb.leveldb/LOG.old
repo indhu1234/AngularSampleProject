@@ -1,0 +1,15 @@
+2020/12/07-11:23:55.841 a9d Reusing MANIFEST /home/indium/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/07-11:23:55.841 a9d Recovering log #7
+2020/12/07-11:23:55.841 a9d Reusing old log /home/indium/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000007.log 
+2020/12/07-11:28:30.078 ad9 Level-0 table #12: started
+2020/12/07-11:28:30.090 ad9 Level-0 table #12: 466354 bytes OK
+2020/12/07-11:28:30.094 ad9 Delete type=0 #7
+2020/12/07-11:28:30.094 ad9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/12/07-11:28:30.095 ad9 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x15\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00A\x00L\x00L' @ 1232 : 0
+2020/12/07-11:28:30.095 ad9 Compacting 1@1 + 1@2 files
+2020/12/07-11:28:30.100 ad9 Generated table #13@1: 77 keys, 66540 bytes
+2020/12/07-11:28:30.100 ad9 Compacted 1@1 + 1@2 files => 66540 bytes
+2020/12/07-11:28:30.103 ad9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/12/07-11:28:30.103 ad9 Delete type=2 #9
+2020/12/07-11:28:30.103 ad9 Delete type=2 #12
+2020/12/07-11:28:30.104 ad9 Manual compaction at level-1 from '\x00\x08\x01\x02\x01\x15\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00A\x00L\x00L' @ 1232 : 0 .. (end); will stop at (end)

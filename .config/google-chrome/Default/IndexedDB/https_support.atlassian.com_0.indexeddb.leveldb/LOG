@@ -1,0 +1,5 @@
+2020/12/07-16:36:58.398 28c1 Reusing MANIFEST /home/indium/.config/google-chrome/Default/IndexedDB/https_support.atlassian.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/07-16:37:15.636 28d5 Level-0 table #5: started
+2020/12/07-16:37:15.638 28d5 Level-0 table #5: 1578 bytes OK
+2020/12/07-16:37:15.642 28d5 Delete type=0 #3
+2020/12/07-16:37:15.642 28d5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

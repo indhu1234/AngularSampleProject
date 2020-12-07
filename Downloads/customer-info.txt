@@ -1,0 +1,373 @@
+html
+======
+<div class="customers">
+  <div class="btn-el">
+    <button nz-button nzType="primary" nzDanger (click)="onSubmit()">Submit</button>
+  </div>
+  <nz-table #table [nzData]="tableData" nzSize="small" nzBordered nzPaginationPosition="top" nzPageSize="50" [nzScroll]="{ y: '80vh' }"  nzShowPagination="true" (nzQueryParams)="onQueryParamsChange($event)" nzFrontPagination="true" [nzTotal]="totalRecords" [nzLoading]="isLoading" (nzPageIndexChange)="pageChange($event)">
+    <thead>
+      <tr>
+        <!-- <th *ngFor="let cols of columns">{{cols}}</th> -->
+        <th class="col">Id</th>
+        <th class="size-2">Brand</th>
+        <th class="size-2">Item</th>
+        <th class="size-2">Customer</th>
+        <th class="col">Customer Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- <tr *ngFor="let items of table.data">
+        <td *ngFor="let item of items | keyvalue">{{item.value}}</td>
+      </tr> -->
+
+      <tr *ngFor="let item of table.data; let index = index">
+        <td>{{item.id}}</td>
+        <td>{{item.Brand}}</td>
+        <td>{{item.Item}}</td>
+        <td>{{item.customer}}</td>
+        <td>
+          <div *ngIf="item.customerName == '' || !isSubmitted" class="customer-select">
+            <nz-select nzSize="small" name="customerName" [(ngModel)]="item.customerName" 
+            (ngModelChange)="onNameChange(item)"
+              nzShowSearch nzAllowClear nzPlaceHolder="" required>
+              <nz-option *ngFor="let name of customerNames" [nzLabel]="name" [nzValue]="name"></nz-option>
+            </nz-select>
+          </div>
+          <div *ngIf="item.customerName != '' && isSubmitted">
+            {{item.customerName}}
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </nz-table>
+  <!-- <pre>{{tableData | json}}</pre> -->
+</div>
+
+
+ts
+====
+import { Component, OnInit } from '@angular/core';
+import { NzNotificationService } from 'ng-zorro-antd/notification';
+import { NzTableQueryParams } from 'ng-zorro-antd/table';
+
+import { ApiService } from 'src/app/api.service';
+declare var $: any;
+declare var domo: any;
+declare var alasql: any;
+
+@Component({
+  selector: 'app-customer-info',
+  templateUrl: './customer-info.component.html',
+  styleUrls: ['./customer-info.component.scss']
+})
+export class CustomerInfoComponent implements OnInit {
+
+  tableData = [
+    /* {
+      "id": "AAF238-BL480D-2sK0Uv6DoP8",
+      "Item": "BL480D",
+      "customer": "AAF238",
+      "Brand": "NINJA",
+      "customerName": "",
+      "hash": "8a266e8269bb1f38669ad374855c5074e25f94e6"
+    },
+    {
+      "id": "AAF238-CP301-2sK0Uv62qDp",
+      "Item": "CP301",
+      "customer": "AAF238",
+      "Brand": "NINJA",
+      "customerName": "",
+      "hash": "3e04032f05e20ebe334bb0c531bc55d1366f1585"
+    },
+    {
+      "id": "AAF238-HV301-2sK0Uv6rZUN",
+      "Item": "HV301",
+      "customer": "AAF238",
+      "Brand": "SHARK",
+      "customerName": "",
+      "hash": "d983fb2852f5c8c875cdbe41497488109d340a8d"
+    },
+    {
+      "id": "AAF238-BL480D-2sK0Uv6DoP8",
+      "Item": "BL480D",
+      "customer": "AAF238",
+      "Brand": "NINJA",
+      "customerName": "",
+      "hash": "8a266e8269bb1f38669ad374855c5074e25f94e6"
+    },
+    {
+      "id": "AAF238-CP301-2sK0Uv62qDp",
+      "Item": "CP301",
+      "customer": "AAF238",
+      "Brand": "NINJA",
+      "customerName": "",
+      "hash": "3e04032f05e20ebe334bb0c531bc55d1366f1585"
+    },
+    {
+      "id": "AAF238-HV301-2sK0Uv6rZUN",
+      "Item": "HV301",
+      "customer": "AAF238",
+      "Brand": "SHARK",
+      "customerName": "",
+      "hash": "d983fb2852f5c8c875cdbe41497488109d340a8d"
+    },
+    {
+      "id": "AAF238-BL480D-2sK0Uv6DoP8",
+      "Item": "BL480D",
+      "customer": "AAF238",
+      "Brand": "NINJA",
+      "customerName": "",
+      "hash": "8a266e8269bb1f38669ad374855c5074e25f94e6"
+    },
+    {
+      "id": "AAF238-CP301-2sK0Uv62qDp",
+      "Item": "CP301",
+      "customer": "AAF238",
+      "Brand": "NINJA",
+      "customerName": "",
+      "hash": "3e04032f05e20ebe334bb0c531bc55d1366f1585"
+    },
+    {
+      "id": "AAF238-HV301-2sK0Uv6rZUN",
+      "Item": "HV301",
+      "customer": "AAF238",
+      "Brand": "SHARK",
+      "customerName": "",
+      "hash": "d983fb2852f5c8c875cdbe41497488109d340a8d"
+    },
+    {
+      "id": "AAF238-BL480D-2sK0Uv6DoP8",
+      "Item": "BL480D",
+      "customer": "AAF238",
+      "Brand": "NINJA",
+      "customerName": "",
+      "hash": "8a266e8269bb1f38669ad374855c5074e25f94e6"
+    },
+    {
+      "id": "AAF238-CP301-2sK0Uv62qDp",
+      "Item": "CP301",
+      "customer": "AAF238",
+      "Brand": "NINJA",
+      "customerName": "",
+      "hash": "3e04032f05e20ebe334bb0c531bc55d1366f1585"
+    },
+    {
+      "id": "AAF238-HV301-2sK0Uv6rZUN",
+      "Item": "HV301",
+      "customer": "AAF238",
+      "Brand": "SHARK",
+      "customerName": "",
+      "hash": "d983fb2852f5c8c875cdbe41497488109d340a8d"
+    },
+    {
+      "id": "AAF238-BL480D-2sK0Uv6DoP8",
+      "Item": "BL480D",
+      "customer": "AAF238",
+      "Brand": "NINJA",
+      "customerName": "",
+      "hash": "8a266e8269bb1f38669ad374855c5074e25f94e6"
+    },
+    {
+      "id": "AAF238-CP301-2sK0Uv62qDp",
+      "Item": "CP301",
+      "customer": "AAF238",
+      "Brand": "NINJA",
+      "customerName": "",
+      "hash": "3e04032f05e20ebe334bb0c531bc55d1366f1585"
+    },
+    {
+      "id": "AAF238-HV301-2sK0Uv6rZUN",
+      "Item": "HV301",
+      "customer": "AAF238",
+      "Brand": "SHARK",
+      "customerName": "",
+      "hash": "d983fb2852f5c8c875cdbe41497488109d340a8d"
+    } */
+  ];
+  objectKeys = Object.keys;
+  columns = ['Brand', 'Item', '_COLUMN_1', 'customer', 'customerName', 'id'];
+  customerNames = [/* 'Faizul', 'Hassan', 'Mohamed' */];
+  userInfo = {
+    email: domo.env['userEmail'] || 'fhassan@sharkninja.com',
+  }
+  pageIndex = 1;
+  isSubmitted = false;
+  totalRecords = 10;
+  isLoading = true;
+  onPageload = true;
+  toAppDB = [];
+  constructor(
+    private _api: ApiService,
+    private _notify: NzNotificationService
+  ) { }
+
+  ngOnInit(): void {
+    this.getRecordsCounts();
+    this.getActivities({});
+    this.getCustomerNames();
+  }
+
+  getActivities(params) {
+    let offset = params.offset ?? 0;
+    let limit = params.limit ?? 50;
+    this.isLoading = true;
+    domo.get(`/data/v1/customers?offset=${offset}&limit=${limit}`).then(data => {
+      //this.columns = Object.keys(data[0]);
+      this.isLoading = false;
+      this.tableData = data;
+    });
+  }
+
+  getCustomerNames() {
+    domo.post('/sql/v1/customer_names', "SELECT DISTINCT customerName FROM customer_names WHERE customerName !='' ORDER BY customerName", { contentType: 'text/plain' }).then(data => {
+      this.customerNames = data['rows'].map(i => i[0]);
+    });
+  }
+
+  getRecordsCounts() {
+    domo.post('/sql/v1/customers', "SELECT COUNT(*) FROM customers", { contentType: 'text/plain' }).then(data => {
+      console.log('Total Records::', data);
+      this.totalRecords = data['rows'][0];
+    });
+  }
+
+  onNameChange(params) {
+    params['added'] = true;
+  }
+
+  pageChange(e) {
+    this.pageIndex = e;
+    if (this.validateDataSubmission()) {
+      return;
+    }
+  }
+
+  currentPageDataChange(e) {
+    console.log('Page Change Data Event::', e);
+  }
+
+  onQueryParamsChange(params: NzTableQueryParams): void {
+    console.log('Table Params::', params);
+    let offset = (params.pageIndex - 1) * params.pageSize;
+    !this.onPageload && this.getActivities({ offset, limit: 50 });
+    this.onPageload = false;
+  }
+
+  /**
+   * Function to check whether user submitting the data before navigating
+   */
+  validateDataSubmission() {
+    let filteredValues = alasql("SELECT customerName, hash FROM ? WHERE added = true", [this.tableData]);
+    if (!this.isSubmitted && filteredValues.length != 0) {
+      this.notifyMessage({ title: 'Warning !', description: 'Please submit your entry before navigating to the next page.' });
+      return true;
+    }
+  }
+
+  onSubmit() {
+    this.isSubmitted = true;
+    this.toAppDB = alasql("SELECT customerName, hash FROM ? WHERE added = true", [this.tableData]);
+    console.log('Docs Sent To DB::', this.toAppDB);
+    this.addToAppDB(this.toAppDB);
+  }
+
+  addToAppDB(params) {
+    this._api.addToCollection('customerMeta', params).subscribe(data => {
+      this.notifyMessage({ title: 'Success !', description: 'Your entry is successful' });
+    }, e => {
+      this.notifyMessage({ title: 'Error !', description: 'Your entry has failed ! Please try after sometime' });
+    })
+  }
+
+  notifyMessage(message): void {
+    this._notify.blank(
+      message.title,
+      message.description,
+      { nzPlacement: 'topRight' }
+    );
+  }
+}
+
+css
+=====
+.customers {
+  nz-table {
+    width: 88%;
+    margin: 0 auto;
+
+    .col {
+      width: 18em;
+    }
+    .size-2 {
+      width: 4em;
+    }
+    .customer-select {
+      nz-select {
+        width: 200px;
+      }
+    }
+
+    td {
+      padding: 8px !important;
+    }
+  }
+
+  .btn-el {
+    position: relative;
+    z-index: 9;
+    button {
+      position: absolute;
+      top: 10px;
+      left: 6%;
+    }
+  }
+}
+
+:host ::ng-deep .ant-table {
+  font-size: 13px !important;
+}
+
+manifest.json
+=================
+{
+  "name": "Shark-Ninja-Merge-Tables",
+  "version": "1.0.0",
+  "collections": [
+    {
+      "name": "customerMeta",
+      "schema": {
+        "columns": [
+          {
+            "name": "hash",
+            "type": "STRING"
+          },
+          {
+            "name": "customerName",
+            "type": "STRING"
+          }
+        ]
+      },
+      "syncEnabled": true
+    }
+  ],
+  "mapping": [
+    {
+      "dataSetId": "93e106d8-d78e-473f-a071-eb75626a93db",
+      "alias": "customers",
+      "fields": []
+    },
+    {
+      "dataSetId": "d72f1546-fe90-4c83-a8b6-fe5c2ceadfa8",
+      "alias": "customer_names",
+      "fields": []
+    }
+  ],
+  "fullpage": true,
+  "size": {
+    "width": 5,
+    "height": 2
+  },
+  "fileName": "manifest.json",
+  "id": "3a5e5979-2997-4b85-91ba-051d62556f45",
+  "proxyId": "69bb6ab0-050b-4cfd-b0bb-919a1dfb4b38"
+}

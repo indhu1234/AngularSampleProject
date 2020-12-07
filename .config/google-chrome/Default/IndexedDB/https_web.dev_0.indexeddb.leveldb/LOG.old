@@ -1,0 +1,5 @@
+2020/12/04-18:08:42.175 55da Reusing MANIFEST /home/indium/.config/google-chrome/Default/IndexedDB/https_web.dev_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/04-18:09:44.083 55d9 Level-0 table #5: started
+2020/12/04-18:09:44.086 55d9 Level-0 table #5: 4972 bytes OK
+2020/12/04-18:09:44.089 55d9 Delete type=0 #3
+2020/12/04-18:09:44.089 55d9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

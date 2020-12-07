@@ -1,0 +1,38 @@
+(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false".  It will change to be "true" in Electron 9.  For more information please check https://github.com/electron/electron/issues/18397
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) ProtocolDeprecateCallback: The callback argument of protocol module APIs is no longer needed.
+(node:3465) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 ecsSettingsUpdated listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:3465) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 appInitialized listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:3465) UnhandledPromiseRejectionWarning: undefined
+(node:3465) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:3465) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Opening in existing browser session.
+(node:3634) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+(node:3634) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+Server response: 
+(node:3634) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+(node:3634) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+Server response: 
+Opening in existing browser session.
+(node:3634) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+(node:3634) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+(node:3634) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+(node:3634) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+(node:3634) DeprecationWarning: Passing functions, DOM objects and other non-cloneable JavaScript objects to IPC methods is deprecated and will throw an exception beginning with Electron 9.
+Server response: 
+Opening in existing browser session.
+Opening in existing browser session.

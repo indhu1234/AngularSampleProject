@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/indium/.nvm/versions/node/v14.15.1/bin/node',
+1 verbose cli   '/home/indium/.nvm/versions/node/v14.15.1/bin/npm',
+1 verbose cli   'install'
+1 verbose cli ]
+2 info using npm@6.14.9
+3 info using node@v14.15.1
+4 verbose npm-session 2127df257709458c
+5 silly install runPreinstallTopLevelLifecycles
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 timing stage:rollbackFailedOptional Completed in 6ms
+9 timing stage:runTopLevelLifecycles Completed in 1725ms
+10 verbose stack Error: Failed to parse json
+10 verbose stack Unexpected token / in JSON at position 755 while parsing near '...ix": "^0.15.0",
+10 verbose stack     // "domo": "^0.5.9",...'
+10 verbose stack     at parseError (/home/indium/.nvm/versions/node/v14.15.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:470:11)
+10 verbose stack     at parseJson (/home/indium/.nvm/versions/node/v14.15.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:105:26)
+10 verbose stack     at /home/indium/.nvm/versions/node/v14.15.1/lib/node_modules/npm/node_modules/read-package-json/read-json.js:52:5
+10 verbose stack     at /home/indium/.nvm/versions/node/v14.15.1/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:123:16
+10 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+11 verbose cwd /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp
+12 verbose Linux 4.15.0-20-generic
+13 verbose argv "/home/indium/.nvm/versions/node/v14.15.1/bin/node" "/home/indium/.nvm/versions/node/v14.15.1/bin/npm" "install"
+14 verbose node v14.15.1
+15 verbose npm  v6.14.9
+16 error code EJSONPARSE
+17 error file /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/package.json
+18 error JSON.parse Failed to parse json
+18 error JSON.parse Unexpected token / in JSON at position 755 while parsing near '...ix": "^0.15.0",
+18 error JSON.parse     // "domo": "^0.5.9",...'
+19 error JSON.parse Failed to parse package.json data.
+19 error JSON.parse package.json must be actual JSON, not just JavaScript.
+20 verbose exit [ 1, true ]

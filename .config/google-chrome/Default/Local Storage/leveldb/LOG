@@ -1,0 +1,48 @@
+2020/12/07-11:21:52.330 3 Reusing MANIFEST /home/indium/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/12/07-11:21:52.331 3 Recovering log #60
+2020/12/07-11:21:52.334 3 Reusing old log /home/indium/.config/google-chrome/Default/Local Storage/leveldb/000060.log 
+2020/12/07-11:32:27.484 b Level-0 table #64: started
+2020/12/07-11:32:27.487 b Level-0 table #64: 14186 bytes OK
+2020/12/07-11:32:27.491 b Delete type=0 #60
+2020/12/07-13:24:03.601 5b Level-0 table #66: started
+2020/12/07-13:24:03.606 5b Level-0 table #66: 11194 bytes OK
+2020/12/07-13:24:03.609 5b Delete type=0 #63
+2020/12/07-13:24:03.610 5a Compacting 4@0 + 1@1 files
+2020/12/07-13:24:03.621 5a Generated table #67@0: 1324 keys, 404501 bytes
+2020/12/07-13:24:03.621 5a Compacted 4@0 + 1@1 files => 404501 bytes
+2020/12/07-13:24:03.624 5a compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/12/07-13:24:03.625 5a Delete type=2 #56
+2020/12/07-13:24:03.625 5a Delete type=2 #59
+2020/12/07-13:24:03.625 5a Delete type=2 #61
+2020/12/07-13:24:03.625 5a Delete type=2 #66
+2020/12/07-13:24:03.625 5a Delete type=2 #64
+2020/12/07-15:32:40.003 ae Level-0 table #69: started
+2020/12/07-15:32:40.008 ae Level-0 table #69: 9701 bytes OK
+2020/12/07-15:32:40.011 ae Delete type=0 #65
+2020/12/07-16:33:54.949 e1 Level-0 table #71: started
+2020/12/07-16:33:54.952 e1 Level-0 table #71: 14502 bytes OK
+2020/12/07-16:33:54.956 e1 Delete type=0 #68
+2020/12/07-16:43:18.946 e1 Level-0 table #73: started
+2020/12/07-16:43:18.950 e1 Level-0 table #73: 16265 bytes OK
+2020/12/07-16:43:18.953 e1 Delete type=0 #70
+2020/12/07-17:06:02.560 e7 Level-0 table #75: started
+2020/12/07-17:06:02.565 e7 Level-0 table #75: 14796 bytes OK
+2020/12/07-17:06:02.569 e7 Delete type=0 #72
+2020/12/07-17:06:02.569 e1 Compacting 4@0 + 1@1 files
+2020/12/07-17:06:02.581 e1 Generated table #76@0: 1434 keys, 411788 bytes
+2020/12/07-17:06:02.581 e1 Compacted 4@0 + 1@1 files => 411788 bytes
+2020/12/07-17:06:02.584 e1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/12/07-17:06:02.584 e1 Delete type=2 #75
+2020/12/07-17:06:02.585 e1 Delete type=2 #73
+2020/12/07-17:06:02.585 e1 Delete type=2 #71
+2020/12/07-17:06:02.585 e1 Delete type=2 #69
+2020/12/07-17:06:02.585 e1 Delete type=2 #67
+2020/12/07-17:44:02.560 fa Level-0 table #78: started
+2020/12/07-17:44:02.565 fa Level-0 table #78: 17091 bytes OK
+2020/12/07-17:44:02.569 fa Delete type=0 #74
+2020/12/07-18:35:48.223 112 Level-0 table #80: started
+2020/12/07-18:35:48.263 112 Level-0 table #80: 16703 bytes OK
+2020/12/07-18:35:48.267 112 Delete type=0 #77
+2020/12/07-19:09:28.282 124 Level-0 table #82: started
+2020/12/07-19:09:28.286 124 Level-0 table #82: 17928 bytes OK
+2020/12/07-19:09:28.290 124 Delete type=0 #79

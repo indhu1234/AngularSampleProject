@@ -1,0 +1,5 @@
+2020/12/05-00:08:45.461 1794 Reusing MANIFEST /home/indium/.config/google-chrome/Default/IndexedDB/https_www.smashingmagazine.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/12/05-00:09:19.470 1533 Level-0 table #5: started
+2020/12/05-00:09:19.508 1533 Level-0 table #5: 3905 bytes OK
+2020/12/05-00:09:19.510 1533 Delete type=0 #3
+2020/12/05-00:09:19.510 1533 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

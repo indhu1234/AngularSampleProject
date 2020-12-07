@@ -1,0 +1,5 @@
+{
+	"instance": "indiumsoft.domo.com",
+	"refreshToken": "eyJhbGciOiJub25lIiwiZW52IjoicHJvZDgiLCJsYW5lIjoiLmRvbW8uY29tIn0.eyJ0eXBlIjoicmVmcmVzaCIsImlzcyI6ImluZGl1bXNvZnQuZG9tby5jb20iLCJhdWQiOiJkb21vOmludGVybmFsOmRldnN0dWRpbyIsInJ0aSI6ImQzZTY5YjliLTQyZGQtNDkxNC1hZmQyLTc1YzkwYjc2YzM5OCIsImNpZCI6Im1tbW0tMDAxNi0xOTMzIn0.",
+	"devToken": false
+}

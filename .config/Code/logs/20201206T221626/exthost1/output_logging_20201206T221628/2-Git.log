@@ -1,0 +1,88 @@
+Looking for git in: git
+Using git 2.29.2 from git
+> git rev-parse --git-dir
+Open repository: /home/indium
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/ProductApp/index.html
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/ProductApp/index.html
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/package.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/package.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/publish-app.sh
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/publish-app.sh
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/angular.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/angular.json
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/ProductApp/index.html
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/ProductApp/index.html
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/src/index.html
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/src/index.html
+> git check-ignore -v -z --stdin
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/ProductApp/index.html
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/ProductApp/index.html
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/ProductApp/manifest.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/ProductApp/manifest.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/e2e/protractor.conf.js
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/e2e/protractor.conf.js
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/src/environments/environment.prod.ts
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/src/environments/environment.prod.ts
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/src/environments/environment.ts
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/src/environments/environment.ts
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/src/environments/environment.prod.ts
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/src/environments/environment.prod.ts
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/src/main.ts
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/src/main.ts
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/src/main.ts
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/src/main.ts
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/src/main.ts
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/src/main.ts
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/ProductApp/manifest.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/ProductApp/manifest.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/src/main.ts
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/src/main.ts
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/tslint.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/tslint.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/tsconfig.spec.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/tsconfig.spec.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/tsconfig.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/tsconfig.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/tsconfig.app.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/tsconfig.app.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/publish-app.sh
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/publish-app.sh
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/package.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/package.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/publish-app.sh
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/publish-app.sh
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/package.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/package.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/karma.conf.js
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/karma.conf.js
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/angular.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/angular.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/karma.conf.js
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/karma.conf.js
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/package-lock.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/package-lock.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/package.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/package.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/package-lock.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/package-lock.json
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/package-lock.json

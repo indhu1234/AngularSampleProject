@@ -1,0 +1,48 @@
+[2020-12-05 20:27:01.504] [renderer3] [error] Illegal argument: character must be non-negative: Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:513:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:511:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async W.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:749:898)
+[2020-12-05 20:27:04.224] [renderer3] [error] Illegal argument: character must be non-negative: Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:513:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:511:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async W.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:749:898)
+[2020-12-05 20:27:06.690] [renderer3] [error] Illegal argument: character must be non-negative: Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:513:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:511:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async W.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:749:898)
+[2020-12-05 20:27:11.463] [renderer3] [error] Illegal argument: character must be non-negative: Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:10:662)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:513:424)
+	at new _ (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:511:436)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201708)
+	at g (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:201781)
+	at _ (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:204081)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203069
+	at C (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:203249)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:209654)
+	at async W.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:749:898)

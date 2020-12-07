@@ -1,0 +1,37 @@
+Looking for git in: git
+Using git 2.29.2 from git
+> git rev-parse --git-dir
+Open repository: /home/indium
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/src/app/views/product-list/product-list.component.ts
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/src/app/views/product-list/product-list.component.ts
+> git check-ignore -v -z --stdin
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/src/app/api.service.ts
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/src/app/api.service.ts
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/src/app/views/product-list/product-list.component.ts
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/src/app/views/product-list/product-list.component.ts
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/domo/manifest.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/domo/manifest.json
+> git check-ignore -v -z --stdin
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/productapp/manifest.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/productapp/manifest.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/domo/manifest.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/domo/manifest.json
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/productapp/manifest.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/productapp/manifest.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/domo/manifest.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/domo/manifest.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/domo/manifest.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/domo/manifest.json
+> git show --textconv :Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/productapp/manifest.json
+> git ls-files --stage -- /home/indium/Documents/Projects/SampleProject/AngularDomo/ProductApp/dist/productapp/manifest.json

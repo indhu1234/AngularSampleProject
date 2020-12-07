@@ -1,0 +1,27 @@
+2020/12/05-12:58:03.364 967 Reusing MANIFEST /home/indium/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/MANIFEST-000001
+2020/12/05-12:58:03.364 967 Recovering log #48
+2020/12/05-12:58:03.365 967 Reusing old log /home/indium/.config/Microsoft/Microsoft Teams/Local Storage/leveldb/000048.log 
+2020/12/05-12:59:03.368 a95 Level-0 table #52: started
+2020/12/05-12:59:03.371 a95 Level-0 table #52: 69181 bytes OK
+2020/12/05-12:59:03.374 a95 Delete type=0 #48
+2020/12/05-13:40:19.084 a95 Level-0 table #54: started
+2020/12/05-13:40:19.088 a95 Level-0 table #54: 58980 bytes OK
+2020/12/05-13:40:19.091 a95 Delete type=0 #51
+2020/12/05-14:58:19.046 a95 Level-0 table #56: started
+2020/12/05-14:58:19.085 a95 Level-0 table #56: 46792 bytes OK
+2020/12/05-14:58:19.087 a95 Delete type=0 #53
+2020/12/05-14:58:19.088 a95 Compacting 4@0 + 1@1 files
+2020/12/05-14:58:19.100 a95 Generated table #57@0: 140 keys, 533743 bytes
+2020/12/05-14:58:19.100 a95 Compacted 4@0 + 1@1 files => 533743 bytes
+2020/12/05-14:58:19.103 a95 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/12/05-14:58:19.103 a95 Delete type=2 #52
+2020/12/05-14:58:19.103 a95 Delete type=2 #49
+2020/12/05-14:58:19.103 a95 Delete type=2 #56
+2020/12/05-14:58:19.103 a95 Delete type=2 #54
+2020/12/05-14:58:19.103 a95 Delete type=2 #47
+2020/12/05-15:40:19.051 a95 Level-0 table #59: started
+2020/12/05-15:40:19.054 a95 Level-0 table #59: 46949 bytes OK
+2020/12/05-15:40:19.057 a95 Delete type=0 #55
+2020/12/05-19:16:19.049 a95 Level-0 table #61: started
+2020/12/05-19:16:19.086 a95 Level-0 table #61: 28909 bytes OK
+2020/12/05-19:16:19.090 a95 Delete type=0 #58
