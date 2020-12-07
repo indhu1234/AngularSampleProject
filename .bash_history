@@ -156,3 +156,150 @@ npm install @types/jquery
 npm install
 npm init -y
 domo init
+webpack
+cd domo
+domo login
+cd..
+cd
+npm install
+ng build
+git clone https://Indhu_vsi@bitbucket.org/mohamedfaizul/sharkninja_table.git
+git clone https://Indhu_vsi@bitbucket.org/mohamedfaizul/sharkninja_table.git
+sudo apt-get update
+npm start
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+ng serve
+cd src
+cd app
+ng g s api
+cd views
+ng g c product-list
+cd.
+cd..
+cd.
+ng build
+domo login
+ng serve
+ng add ng-zorro-antd
+domo login
+ng serve
+ng build
+ng serve
+ng build
+ng serve
+ng build
+ng serve
+code .
+domo login
+ng serve
+ng serve --open
+code .
+ng serve
+npm install @angular/material
+npm install
+domo login
+ng serve
+cd domo
+domo publish
+ng serve
+cd domo
+domo publish
+ng serve
+npm install alasql
+ng serve
+domo login
+ng serve
+cd domo
+domo publish
+ng build
+ng serve --open
+ng serve 
+cd domo
+domo publish
+ng serve --open
+ng serve
+npm run build
+ng serve
+npm run build
+ng serve
+exit
+cd domo
+domo login
+domo publish
+cd dist
+cd ProductApp
+domo publish
+cd dist
+domo publish
+cd..
+cd domo
+domo login
+domo publish
+cd asset
+cd ProductApp
+domo publish
+cd asset
+cd assets
+cd javascript
+domo publish
+cd
+cd dist
+cd ProductApp
+domo publish
+cd domo
+cd dist
+domo publish
+npm install -g ryuu
+ng serve
+npm install -g ryuu
+ng serve
+cd domo
+domo publish
+cd dist
+cd Productapp
+cd ProductApp
+cd assets
+cd src
+cd assets
+cd javascript
+domo publish
+npm install
+ng serve
+npm install lodash
+npm install moment
+npm install ng-zorro-antd
+npm install @angular-builders/custom-webpack
+cd products-app
+npm install ng-zorro-antd
+npm install @angular-builders/custom-webpack
+npm install moment
+npm install lodash
+npm install -g ryuu
+npm install domo
+npm install @angular/language-service
+npm install @gomoinc/ryuu-proxy
+sudo apt install @domoinc/ryuu-proxy
+npm add @domoinc/ryuu-proxy
+npm install @types/lodash
+npm install copy-webpack-plu
+ng new products-app
+cd products-app
+ng serve
+npm install
+cd products-app
+npm install
+npm add @domoinc/ryuu-proxy
+npm install copy-webpack-plugin
+cd domo
+domo init
+domo login
+domo publish
+cd products-app
+cd views
+cd src
+cd app
+cd views
+ng g c product-list
+cd products-app
+cd domo
+domo publish
